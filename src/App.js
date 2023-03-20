@@ -2,12 +2,17 @@
 
 
 
-
 class App extends Component{
     constructor() {
         super();
         this.state= {displayBio: false};
+        this.toggleDisplayBio= this.toggleDisplayBio.bind(this);
     }
+
+    toggleDisplayBio(){
+    this.setState({displayBio: !this.state.displayBio});
+ }
+
     render() {
         return(
             <div>
@@ -21,8 +26,11 @@ class App extends Component{
                         <p>I currently have not found a favorite language, they all flow pretty smoothly.</p>
                         <p>Besides coding, I am an Army vet. I have my Nursing, Massage, and Esthetician Licences all current and active.</p>
                         <p>Helping people is my passion!</p>
+                        <button onClick={this.toggleDisplayBio}>Show less</button>
                     </div>
-                ) : null
+                    ) : (<div>
+                        <button onClick={this.toggleDisplayBio}>Read more</button>
+                    </div>)
                 }
             </div>
         );
