@@ -1,5 +1,5 @@
  import React, {Component} from 'react';
-
+import Projects from "./Projects";
 
 
 class App extends Component{
@@ -24,10 +24,14 @@ class App extends Component{
                         <p>Helping people is my passion!</p>
                         <button onClick={this.toggleDisplayBio}>Show less</button>
                     </div>
-                    ) : (<div>
+                    ) : (
+                        <div>
                         <button onClick={this.toggleDisplayBio}>Read more</button>
-                    </div>)
+                    </div>
+                    )
                 }
+                <hr/>
+                <Projects/>
             </div>
         );
     }
