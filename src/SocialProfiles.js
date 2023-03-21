@@ -9,7 +9,7 @@ class SocialProfile extends Component {
         return (
             <span>
 
-                <a href={link}><img src={image} alt='socialProfile' style={{width: 35, height: 35}}/></a>
+                <a href={link}><img src={image} alt='socialProfile' style={{width: 35, height: 35, margin: 10}}/></a>
             </span>
         )
     }
