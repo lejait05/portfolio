@@ -27775,6 +27775,8 @@ var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
 var _title = require("./Title");
 var _titleDefault = parcelHelpers.interopDefault(_title);
+var _jokes = require("./Jokes");
+var _jokesDefault = parcelHelpers.interopDefault(_jokes);
 var _meJpeg = require("../assets/me.jpeg");
 var _meJpegDefault = parcelHelpers.interopDefault(_meJpeg);
 class App extends (0, _react.Component) {
@@ -27795,33 +27797,33 @@ class App extends (0, _react.Component) {
                     className: "profile"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     children: "Hello"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "My name is Lineisha."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 19,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 20,
+                    lineNumber: 21,
                     columnNumber: 16
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "I'm always looking forward to working on meaningful projects."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 17
                 }, this),
                 this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27830,28 +27832,28 @@ class App extends (0, _react.Component) {
                             children: "I live in San Antonio, and I love the world of coding."
                         }, void 0, false, {
                             fileName: "src/components/App.js",
-                            lineNumber: 25,
+                            lineNumber: 26,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "I currently have not found a favorite language, they all flow pretty smoothly."
                         }, void 0, false, {
                             fileName: "src/components/App.js",
-                            lineNumber: 26,
+                            lineNumber: 27,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Besides coding, I am an Army vet. I have my Nursing, Massage, and Esthetician Licences all current and active."
                         }, void 0, false, {
                             fileName: "src/components/App.js",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Helping people is my passion!"
                         }, void 0, false, {
                             fileName: "src/components/App.js",
-                            lineNumber: 28,
+                            lineNumber: 29,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27859,13 +27861,13 @@ class App extends (0, _react.Component) {
                             children: "Show less"
                         }, void 0, false, {
                             fileName: "src/components/App.js",
-                            lineNumber: 29,
+                            lineNumber: 30,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/App.js",
-                    lineNumber: 24,
+                    lineNumber: 25,
                     columnNumber: 21
                 }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27873,38 +27875,48 @@ class App extends (0, _react.Component) {
                         children: "Read more"
                     }, void 0, false, {
                         fileName: "src/components/App.js",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 32,
+                    lineNumber: 33,
                     columnNumber: 25
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 38,
+                    lineNumber: 39,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 40,
+                    lineNumber: 41,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 42,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jokesDefault.default), {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 43,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/App.js",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 13
         }, this);
     }
@@ -27916,7 +27928,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","../assets/me.jpeg":"dhocR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","../assets/me.jpeg":"dhocR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Jokes":"azgA9"}],"16pwG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27930,94 +27942,90 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projects = require("../data/projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
-class Project extends (0, _react.Component) {
-    render() {
-        console.log("this.props", this.props);
-        const { title , image , description , link  } = this.props.project;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                display: "inline-block",
-                width: 300,
-                margin: 10
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: title
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 10,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "profile",
-                    style: {
-                        width: 200,
-                        height: 120
-                    }
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 11,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: description
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: link,
-                    children: link
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Projects.js",
-            lineNumber: 9,
-            columnNumber: 13
-        }, this);
-    }
-}
-class Projects extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Highlighted Projects"
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 23,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _projectsDefault.default).map((PROJECT)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
-                            project: PROJECT
-                        }, PROJECT.id, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 28,
-                            columnNumber: 33
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 24,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Projects.js",
-            lineNumber: 22,
-            columnNumber: 13
-        }, this);
-    }
-}
+const Project = (props)=>{
+    const { title , image , description , link  } = props.project;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "inline-block",
+            width: 300,
+            margin: 10
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "profile",
+                style: {
+                    width: 200,
+                    height: 120
+                }
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: description
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: link,
+                children: link
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 7,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Project;
+const Projects = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Highlighted Projects"
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 18,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _projectsDefault.default).map((PROJECT)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
+                        project: PROJECT
+                    }, PROJECT.id, false, {
+                        fileName: "src/components/Projects.js",
+                        lineNumber: 22,
+                        columnNumber: 21
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 17,
+        columnNumber: 5
+    }, undefined);
+_c1 = Projects;
 exports.default = Projects;
+var _c, _c1;
+$RefreshReg$(_c, "Project");
+$RefreshReg$(_c1, "Projects");
 
   $parcel$ReactRefreshHelpers$ec2f.postlude(module);
 } finally {
@@ -28115,73 +28123,69 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _socialProfiles = require("../data/socialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
-class SocialProfile extends (0, _react.Component) {
-    render() {
-        console.log("this.props", this.props);
-        const { link , image  } = this.props.socialProfile;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: link,
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "socialProfile",
-                    style: {
-                        width: 35,
-                        height: 35,
-                        margin: 10
-                    }
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 12,
-                    columnNumber: 21
-                }, this)
+const SocialProfile = (props)=>{
+    const { link , image  } = props.socialProfile;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: link,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "socialProfile",
+                style: {
+                    width: 35,
+                    height: 35,
+                    margin: 10
+                }
             }, void 0, false, {
                 fileName: "src/components/SocialProfiles.js",
-                lineNumber: 11,
-                columnNumber: 17
-            }, this)
+                lineNumber: 10,
+                columnNumber: 21
+            }, undefined)
         }, void 0, false, {
             fileName: "src/components/SocialProfiles.js",
-            lineNumber: 10,
-            columnNumber: 13
-        }, this);
-    }
-}
-class SocialProfiles extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Keep In Touch"
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 23,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
-                            socialProfile: SOCIAL_PROFILE
-                        }, SOCIAL_PROFILE.id, false, {
-                            fileName: "src/components/SocialProfiles.js",
-                            lineNumber: 28,
-                            columnNumber: 33
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 24,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/SocialProfiles.js",
-            lineNumber: 22,
-            columnNumber: 13
-        }, this);
-    }
-}
+            lineNumber: 9,
+            columnNumber: 17
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 8,
+        columnNumber: 13
+    }, undefined);
+};
+_c = SocialProfile;
+const SocialProfiles = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Keep In Touch"
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 18,
+                columnNumber: 17
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
+                        socialProfile: SOCIAL_PROFILE
+                    }, SOCIAL_PROFILE.id, false, {
+                        fileName: "src/components/SocialProfiles.js",
+                        lineNumber: 22,
+                        columnNumber: 33
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 19,
+                columnNumber: 17
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 17,
+        columnNumber: 13
+    }, undefined);
+_c1 = SocialProfiles;
 exports.default = SocialProfiles;
+var _c, _c1;
+$RefreshReg$(_c, "SocialProfile");
+$RefreshReg$(_c1, "SocialProfiles");
 
   $parcel$ReactRefreshHelpers$aca4.postlude(module);
 } finally {
@@ -28306,6 +28310,70 @@ exports.default = Title;
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dhocR":[function(require,module,exports) {
 module.exports = require("137925d73c22a1c8").getBundleURL("bLxZJ") + "me.953daf57.jpeg" + "?" + Date.now();
 
-},{"137925d73c22a1c8":"lgJ39"}]},["1xC6H","jC2qd","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"137925d73c22a1c8":"lgJ39"}],"azgA9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$40f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$40f0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class Jokes extends (0, _react.Component) {
+    state = {
+        joke: {}
+    };
+    componentDidMount() {
+        fetch("https://official-joke-api.appspot.com/random_joke").then((response)=>response.json()).then((json)=>this.setState({
+                joke: json
+            }));
+    }
+    render() {
+        const { setup , punchline  } = this.state.joke;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "Highlighted Joke"
+                }, void 0, false, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 14,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: [
+                        setup,
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
+                            children: punchline
+                        }, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 15,
+                            columnNumber: 28
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Jokes.js",
+            lineNumber: 13,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = Jokes;
+
+  $parcel$ReactRefreshHelpers$40f0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","jC2qd","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map
