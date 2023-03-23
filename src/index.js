@@ -5,6 +5,7 @@ import {createBrowserHistory} from "history";
 import App from './components/App';
 import Jokes from "./components/Jokes";
 import  './index.css';
+import Header from "./components/Header";
 
 
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter history={ createBrowserHistory()}>
     <Routes>
-        < Route path='/' element={<App />}></Route>
-        <Route path='/jokes' element={<Jokes/>}></Route>
+        < Route path='/' element={<Header><App/></Header>}/>
+        <Route path='/jokes' element={<Header><Jokes/></Header>}/>
     </Routes>
 </BrowserRouter>);

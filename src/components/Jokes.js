@@ -21,7 +21,6 @@ class Jokes extends Component {
     render() {
         return (
             <div>
-                <Header/>
                 <h2>Highlighted Joke</h2>
                 <Joke joke={this.state.joke}/>
                 <hr/>
