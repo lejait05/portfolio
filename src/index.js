@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {createBrowserHistory} from "history";
 import App from './components/App';
 import Jokes from "./components/Jokes";
+import MusicMaster from './projects/music-master/src';
 import  './index.css';
 import Header from "./components/Header";
 
@@ -15,5 +16,6 @@ root.render(
     <Routes>
         < Route path='/' element={<Header><App/></Header>}/>
         <Route path='/jokes' element={<Header><Jokes/></Header>}/>
+        <Route path='/music-master' element={<Header><MusicMaster/></Header>}/>
     </Routes>
 </BrowserRouter>);
