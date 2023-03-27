@@ -4,7 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {createBrowserHistory} from "history";
 import App from './components/App';
 import Jokes from "./components/Jokes";
-import MusicMaster from './projects/music-master/src';
+import MusicMaster from './projects/music-master/src/index';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import  './index.css';
 import Header from "./components/Header";
 
